@@ -40,5 +40,6 @@ phpunit
 
 ### TODO
 
+* [ ] Wire up tests to Travis.
 * [ ] Refactor `httpTest` to loop through all the folders under `/tests/http`.
 * [ ] Flesh out the TODO section.
