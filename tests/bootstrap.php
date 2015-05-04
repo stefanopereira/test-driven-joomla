@@ -1,0 +1,4 @@
+<?php
+/**
+ * Bootstrap PHPUnit tests.
+ */

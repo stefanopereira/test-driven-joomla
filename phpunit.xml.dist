@@ -1,0 +1,23 @@
+<phpunit
+        bootstrap="tests/bootstrap.php"
+        colors="true">
+    <testsuites>
+        <testsuite name="tests">
+            <directory>tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">/src</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <const name="WEB_SERVER_HOST" value="localhost"/>
+        <const name="WEB_SERVER_PORT" value="8000"/>
+        <const name="WEB_SERVER_DOCROOT" value="./public"/>
+        <const name="WEB_SERVER_TIMEOUT" value="1"/>
+    </php>
+
+</phpunit>
