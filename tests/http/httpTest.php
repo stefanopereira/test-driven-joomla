@@ -1,10 +1,12 @@
 <?php
+
 /**
  * Class httpTest
  *
- * @link https://github.com/vgno/tech.vg.no-1252/blob/master/features/bootstrap/FeatureContext.php
+ * @copyright Copyright (C) 2015 Andrew Eddie. All rights reserved.
+ * @license   https://www.gnu.org/licenses/old-licenses/gpl-2.0.html  GPL-2+
+ * @link      https://github.com/vgno/tech.vg.no-1252/blob/master/features/bootstrap/FeatureContext.php
  */
-
 class httpTest extends PHPUnit_Framework_Testcase
 {
 	/**
@@ -38,7 +40,7 @@ class httpTest extends PHPUnit_Framework_Testcase
 			}
 
 			$delta = microtime(true) - $start;
-		} while ($delta <= (int) WEB_SERVER_TIMEOUT);
+		} while ($delta <= (int)WEB_SERVER_TIMEOUT);
 
 		if (!$connected) {
 			self::killProcess(self::$pid);

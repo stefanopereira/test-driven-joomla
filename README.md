@@ -1,12 +1,12 @@
-## Test Driven Joomla
+## Test Driven Joomla [![Build Status](https://travis-ci.org/icarus/test-driven-joomla.svg?branch=master)](https://travis-ci.org/icarus/test-driven-joomla)
 
 The principle of this experimental project is to rebuild Joomla from the ground up using test-driven development methodologies.
 
 ### Goals
 
 1. New code can be added as long as the existing tests pass.
-1. New behaviours can be added as long there are tests for it.
-1. The single httpTest should be satisfactory for building nearly the entire application architecture.
+1. New behaviours can be added as long there are tests for them.
+1. The single httpTest should be, initially, satisfactory for building nearly the entire application architecture.
 1. RESTful resource end-points must be part of the architecture from the very start (in fact, anything that is not navigation must use RESTful routes).
   - `GET /path/to/path` is a navigational route (no "v" prefix).
   - `GET /v1/users/1` is a RESTful API route.
