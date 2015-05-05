@@ -54,7 +54,7 @@ phpunit
 
 ### TODO
 
-* [ ] Wire up tests to Travis.
+* [x] Wire up tests to Travis.
 * [ ] Register on Composer.
 * [ ] Devise a basic resource test (for example, `GET /posts/1`)
 * [ ] Refactor `httpTest` to loop through all the folders under `/tests/http`.
